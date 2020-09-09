@@ -1,6 +1,7 @@
 body {
   font: 20px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: #E0FFFF;
 }
 
 ol, ul {
@@ -50,25 +51,27 @@ ol, ul {
   margin-top: 30px;
   margin-left: 30px;
 }
-
-@media only screen and (max-width: 540px){
-  .square{
-    font-size: 2em;
-    height: 50px;
-    width: 50px;
-  }
-  .game-info {
-  margin-left: 10px;
-  float: none;
-  }
-  body{
-    margin: 3px;
-  }
+.title {
+  justify-content: center;
+  margin: 20px 100px;
+}
+#root{
+  margin-left: 90px;
+}
+.deep-pink{
+  color: #FF1493;
+}
+.gold{
+  color: #FFD700;
+}
+.medium-blue{
+  color: #0000CD;
 }
 
-@media only screen and (min-width: 430px){
+@media only screen and (min-width: 640px){
   .game{
     display: flex;
     flex-direction: row;
   }
 }
+
